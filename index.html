@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Junior • Cristian Villagran Traslaviña</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <header class="bg-white shadow-sm sticky-top">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand fw-bold" href="#">Cristian Villagrán Traslaviña</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiencias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#examples">Ejemplos</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://instagram.com/tuusuario" target="_blank">Instagram</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://tu-sitio-web.com" target="_blank">Web</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- SOBRE MÍ -->
+        <section id="about" class="py-5 text-center">
+            <div class="container">
+                <h2 class="mb-3">Sobre mí</h2>
+                <p class="lead">Soy Cristian Villagrán, Ingeniero Civil Industrial en proceso de titulación y 
+                    programador junior en formación como desarrollador full stack Java. Me especializo en el 
+                    desarrollo de aplicaciones web utilizando tecnologías como Java, HTML, CSS, JavaScript y frameworks asociados. 
+                    Cuento con experiencia en resolución de problemas, gestión de proyectos y una sólida base en lógica matemática, 
+                    lo que me permite abordar desafíos técnicos con eficiencia. Actualmente sigo perfeccionando mis habilidades 
+                    mientras compatibilizo el trabajo y la formación continua.</p>
+            </div>
+        </section>
+
+        <!-- MIS HABILIDADES -->
+        <section id="skills" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-4 text-center">Mis habilidades</h2>
+                <div class="row justify-content-center">
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">HTML5</span></div>
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">CSS3</span></div>
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">JavaScript</span></div>
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">jQuery</span></div>
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">Bootstrap</span></div>
+                <div class="col-auto"><span class="badge bg-primary px-3 py-2 m-1">Git & GitHub</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MIS CONOCIMIENTOS / EXPERIENCIAS -->
+        <section id="experience" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Conocimientos &amp; Experiencias</h2>
+                <ul id="experienceList" class="list-unstyled"></ul>
+            </div>
+        </section>
+
+        <!-- MIS PROYECTOS -->
+            <section id="projects" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-4 text-center">Mis proyectos</h2>
+                <div class="row g-4">
+                <!-- Proyecto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                    <img src="assets/img/proyecto1.png" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción corta del objetivo y stack tecnológico.</p>
+                        <a href="https://github.com/Villagran01/Evaluaci-n2.git" class="btn btn-outline-primary mt-auto" target="_blank">Ver código</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Repite para cada proyecto -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-4 text-center bg-white border-top">
+        <div class="container">
+            <p class="mb-1">© 2025 Cristian Villagran Traslaviña</p>
+            <p class="mb-1">
+                Repo: <a href="https://github.com/Villagran01?tab=projects" target="_blank">Mis.Proyectos</a>
+            </p>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></li>
+                <li class="list-inline-item"><a href="https://instagram.com/tuusuario" target="_blank">Instagram</a></li>
+                <li class="list-inline-item"><a href="https://tu-sitio-web.com" target="_blank">Web</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS + Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Script propio -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
