@@ -1,0 +1,46 @@
+Desarrollo:
+
+1.- Distinguir las características, rol y elementos fundamentales de una base de datos relacional para la gestión de la información en una organización.
+
+1.1- ¿Qué es una Base de Datos Relacional?
+Una base de datos relacional (RDB por sus siglas en inglés) es un sistema que permite almacenar, organizar y gestionar grandes cantidades de información estructurada en tablas relacionadas entre sí. Estas relaciones permiten evitar redundancias, mantener la integridad de los datos y facilitar su acceso eficiente mediante un lenguaje estándar: SQL (Structured Query Language).
+
+1.2.- Características Principales de una Base de Datos Relacional
+
+    Estructura tabular: Los datos se almacenan en tablas compuestas por filas (registros) y columnas (campos).
+
+    Relaciones entre tablas: Las tablas pueden vincularse mediante claves primarias y foráneas.
+
+    Integridad referencial:	Se asegura que los datos relacionados estén correctamente enlazados.
+
+    Uso de SQL: Se utilizan comandos estructurados para consultar, insertar y manipular datos.
+
+    Evita duplicidad: A través de la normalización, se reduce la redundancia de los datos.
+
+    Escalabilidad: Permite manejar grandes volúmenes de información de forma eficiente.
+
+
+
+1.3.- Rol de una Base de Datos Relacional en una Organización
+
+Una base de datos relacional:
+
+    Centraliza y organiza la información clave de la organización.
+    Facilita la toma de decisiones gracias al acceso rápido a datos actualizados.
+    Automatiza procesos, como la facturación, inventario o registro de clientes.
+    Respalda sistemas como ERP, CRM, portales web, entre otros.
+    Asegura la integridad y consistencia de la información crítica.
+
+Ejemplos concretos de su uso:
+    En una tienda online: manejo de clientes, productos, pedidos y pagos.
+    En una escuela: administración de estudiantes, cursos, notas y profesores.
+    En una clínica: gestión de pacientes, doctores, recetas y citas médicas.
+
+1.4.- Elementos Fundamentales
+
+    Tabla: Estructura que almacena datos en filas y columnas. Cada tabla representa una entidad.
+    Campo: Cada columna de la tabla, representa un atributo o característica.
+    Registro: Cada fila de la tabla, representa una instancia de la entidad.
+    Clave primaria: Campo único que identifica cada registro dentro de una tabla.
+    Clave foránea: Campo que enlaza una tabla con otra, refiriéndose a su clave primaria.
+
